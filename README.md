@@ -38,3 +38,12 @@ Replace `assets/Panashe_Chiduma_Resume.pdf` with your real resume PDF while keep
 ## Optional custom domain
 
 You can later buy a domain and connect it to GitHub Pages without paying for monthly hosting.
+
+
+## Version 2 additions
+
+- Professional profile photograph integrated into the homepage
+- Actual engineering resume linked to Open Resume and Download PDF buttons
+- Engineer-in-Training badge
+- Opportunity-status banner
+- Updated project-engineering language based on the current resume

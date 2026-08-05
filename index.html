@@ -1,341 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Panashe Chiduma's mechanical engineering portfolio featuring CAD, aerospace, controls, manufacturing, and engineering design projects.">
-  <title>Panashe Chiduma | Engineering Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Engineering portfolio of Panashe Chiduma, Mechanical Engineer with an Aerospace Engineering concentration." />
+  <title>Panashe Chiduma | Mechanical Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="nav-container">
-      <a class="logo" href="#home">PC</a>
-      <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#home">Home</a>
+    <nav class="nav container">
+      <a class="logo" href="#home" aria-label="Homepage">PC<span>.</span></a>
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
-        <a href="#recommendations">Recommendations</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
         <a href="#contact">Contact</a>
-      </nav>
-    </div>
+        <button class="theme-toggle" aria-label="Toggle dark mode">◐</button>
+      </div>
+    </nav>
   </header>
 
   <main>
-    <section class="hero" id="home">
-      <div class="hero-content">
-        <div class="hero-text">
-          <p class="eyebrow">Mechanical Engineer</p>
-          <h1>Panashe Chiduma</h1>
-          <h2>Designing safe, practical, and manufacturable engineering solutions.</h2>
-          <p>
-            Mechanical engineering graduate from Michigan State University with an Aerospace Engineering concentration. My experience includes CAD design, industrial field measurements, high-pressure test systems, controls, mechanical analysis, manufacturing, and technical documentation.
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Mechanical Engineer • Aerospace Concentration</p>
+          <h1>Designing practical engineering solutions for complex systems.</h1>
+          <p class="hero-text">
+            I am Panashe Chiduma, a Mechanical Engineering graduate and Engineer-in-Training with hands-on experience in field assessments, CAD design, high-pressure aerospace systems, engineering documentation, and project coordination.
           </p>
-          <div class="button-row">
-            <a class="button primary" href="#projects">View Projects</a>
-            <a class="button secondary" href="assets/Panashe-Chiduma-Resume.pdf" target="_blank" rel="noopener noreferrer">View Résumé</a>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View My Projects</a>
+            <a class="button secondary" href="assets/Panashe_Chiduma_Resume.pdf" download>Download Resume</a>
+          </div>
+          <div class="hero-highlights">
+            <div><strong>3.7</strong><span>GPA</span></div>
+            <div><strong>50,000 psi</strong><span>Capstone System</span></div>
+            <div><strong>3</strong><span>CAD Platforms</span></div>
           </div>
         </div>
-        <div class="hero-photo-wrap">
-          <img class="hero-photo" src="assets/images/panashe-headshot.jpg" alt="Professional portrait of Panashe Chiduma">
+        <div class="hero-visual reveal">
+          <div class="profile-frame">
+            <img src="assets/Panashe_Chiduma_Profile.jpeg" alt="Panashe Chiduma, Mechanical Engineer" />
+            <div class="profile-badge">
+              <strong>Engineer-in-Training</strong>
+              <span>FE Mechanical • 2026</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="about">
-      <div class="section-heading">
-        <p class="eyebrow">About Me</p>
-        <h2>Engineering through analysis, design, and execution</h2>
+
+    <section class="availability-strip">
+      <div class="container availability-inner">
+        <span class="status-dot"></span>
+        <strong>Open to entry-level engineering opportunities</strong>
+        <span>Design • Project Engineering • Manufacturing • Test &amp; Validation • Aerospace</span>
       </div>
-      <div class="about-grid">
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container split">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>From curiosity about space to a career in engineering.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>
+            My interest in engineering began when I was nine years old. During a summer visit to the library, I found a book about astronomy and astronauts and read it in just a few hours. I immediately decided I wanted to become an astronaut.
+          </p>
+          <p>
+            Growing up in Africa, I quickly realized that the path to becoming an astronaut was not straightforward. Instead of giving up, I began thinking about how I could still contribute to space missions. That question led me to engineering.
+          </p>
+          <p>
+            Today, I bring that same curiosity and determination to mechanical design, aerospace systems, manufacturing, controls, and product development. I enjoy turning technical challenges into safe, practical, and well-documented solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>Engineering, leadership, and hands-on problem solving.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-card reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-meta">June 2023 – May 2026</div>
+            <h3>CAD Designer Intern</h3>
+            <h4>REM Consultants</h4>
+            <ul>
+              <li>Supported industrial engineering projects using Siemens NX, SolidWorks, and AutoCAD.</li>
+              <li>Conducted one to two field site visits per week to collect measurements, document site conditions, and inform design scope and constructability decisions.</li>
+              <li>Designed a permanent galvanized-steel platform and ladder system to replace temporary scaffolding, incorporating worker access, equipment clearances, guardrails, and field-verified conditions.</li>
+              <li>Produced drawings and bills of material for PE and client review; the design was estimated to save $2,000–$4,000 and reduce recurring maintenance-access labor by 3–5 hours per week.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-card reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-meta">Fall 2025 – Spring 2026</div>
+            <h3>Undergraduate Learning Assistant</h3>
+            <h4>Michigan State University</h4>
+            <ul>
+              <li>Supported 25–35 students each week in an Electrical and Computer Engineering course.</li>
+              <li>Explained circuit-analysis concepts, guided problem solving, and helped students build confidence with technical material.</li>
+              <li>Worked approximately 10 hours per week while completing a full mechanical engineering course load.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-card reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-meta">January 2023 – Present</div>
+            <h3>Lead Staff Caregiver</h3>
+            <h4>Open Arms Link AFC Home</h4>
+            <ul>
+              <li>Coordinate daily care, documentation, medication support, safety procedures, and community activities.</li>
+              <li>Respond to behavioral and medical situations while maintaining calm communication and accurate incident reporting.</li>
+              <li>Developed leadership, accountability, decision-making, and interpersonal skills in a fast-paced environment.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Selected Projects</p>
+          <h2>Technical work with measurable purpose.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured reveal">
+            <div class="project-tag">Capstone • Aerospace Testing</div>
+            <h3>50,000 psi Burst Test Facility</h3>
+            <p>
+              Led a five-member team in designing a high-pressure aerospace test system capable of operating at up to 50,000 psi and 500°F. The system included controlled pressurization, remote venting, safety-focused valve selection, a P&amp;ID, BOM, 3D model, and operating procedures.
+            </p>
+            <div class="tech-list">
+              <span>High-Pressure Systems</span><span>P&amp;ID</span><span>CAD</span><span>Safety</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-tag">Controls</div>
+            <h3>Pressure Tracking and Hold System</h3>
+            <p>
+              Developed a Simulink control model for pressure tracking across multiple pipe-response conditions. Evaluated nine operating cases using ramp, step, and hold inputs and tuned a PID controller to improve system response.
+            </p>
+            <div class="tech-list">
+              <span>MATLAB</span><span>Simulink</span><span>PID</span><span>System Modeling</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-tag">Machine Design</div>
+            <h3>Four-Bar Trash Dumper</h3>
+            <p>
+              Led project scheduling, calculations, report integration, and fabrication support for a crank-rocker mechanism designed under cost, size, material, and factor-of-safety constraints.
+            </p>
+            <div class="tech-list">
+              <span>Mechanism Design</span><span>SolidWorks</span><span>Fabrication</span><span>FOS</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-tag">Baja SAE</div>
+            <h3>Transmission Shaft Design</h3>
+            <p>
+              Designed and analyzed an infinite-life transmission shaft using mechanical design calculations and FEA. The final shaft design was implemented on the team vehicle and used in competition.
+            </p>
+            <div class="tech-list">
+              <span>FEA</span><span>Shaft Design</span><span>Fatigue</span><span>Team Engineering</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-tag">Propulsion</div>
+            <h3>Turbojet Performance Solver</h3>
+            <p>
+              Built a Python solver to evaluate turbojet performance at sea-level conditions across subsonic and supersonic flight cases, including specific thrust and thrust-specific fuel consumption.
+            </p>
+            <div class="tech-list">
+              <span>Python</span><span>Thermodynamics</span><span>Propulsion</span><span>Numerical Analysis</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-tag">Turbomachinery</div>
+            <h3>Centrifugal Pump Design</h3>
+            <p>
+              Completed a centrifugal pump design project involving fluid-system requirements, performance calculations, engineering constraints, and technical documentation.
+            </p>
+            <div class="tech-list">
+              <span>Fluid Mechanics</span><span>Pump Design</span><span>Analysis</span><span>Documentation</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and capabilities I bring to engineering teams.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>Design & CAD</h3>
+            <div class="skill-pills">
+              <span>Siemens NX</span><span>SolidWorks</span><span>AutoCAD</span><span>GD&amp;T</span><span>3D Modeling</span><span>Engineering Drawings</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Analysis & Simulation</h3>
+            <div class="skill-pills">
+              <span>MATLAB</span><span>Simulink</span><span>Python</span><span>Abaqus</span><span>FEA</span><span>Controls</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Engineering Practice</h3>
+            <div class="skill-pills">
+              <span>P&amp;IDs</span><span>Field Measurements</span><span>Design Reviews</span><span>Root Cause Thinking</span><span>Technical Reports</span><span>Project Coordination</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Hands-On</h3>
+            <div class="skill-pills">
+              <span>Lathe</span><span>Drill Press</span><span>Prototype Assembly</span><span>Shop Safety</span><span>Inspection</span><span>Testing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education alt">
+      <div class="container education-card reveal">
         <div>
-          <p>
-            I enjoy turning technical requirements, field conditions, and safety constraints into clear engineering solutions. Through internships, coursework, and project teams, I have developed experience in mechanical design, CAD modeling, engineering calculations, simulation, field data collection, fabrication, and design documentation.
-          </p>
-          <p>
-            I am pursuing entry-level opportunities in mechanical design, manufacturing, product development, test and validation, controls, quality, and aerospace engineering.
-          </p>
+          <p class="eyebrow">Education</p>
+          <h2>Michigan State University</h2>
+          <p>Bachelor of Science in Mechanical Engineering</p>
+          <p>Aerospace Engineering Concentration • Honors College</p>
         </div>
-        <div class="skills-card">
-          <h3>Technical Skills</h3>
-          <div class="tag-list">
-            <span>Siemens NX</span><span>SolidWorks</span><span>AutoCAD</span><span>MATLAB</span><span>Simulink</span><span>Python</span><span>Abaqus</span><span>GD&amp;T</span><span>P&amp;IDs</span><span>FEA</span><span>Technical Drawings</span><span>Design for Manufacturing</span>
-          </div>
+        <div class="education-stats">
+          <div><strong>May 2026</strong><span>Graduation</span></div>
+          <div><strong>3.7</strong><span>GPA</span></div>
+          <div><strong>Dean's List</strong><span>Every Semester</span></div>
         </div>
       </div>
     </section>
 
-    <section class="section section-alt" id="projects">
-      <div class="section-heading">
-        <p class="eyebrow">Selected Work</p>
-        <h2>Engineering Projects</h2>
-        <p>Projects demonstrating system design, CAD, analysis, controls, safety, manufacturing, and technical communication.</p>
-      </div>
 
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-number">01</div>
-          <h3>High-Pressure Aerospace Burst-Test System</h3>
-          <p class="project-meta">Eaton Aerospace Capstone | System Design &amp; Safety</p>
-          <p>Developed a proposed burst-test system for aerospace components operating at pressures up to 50,000 psi and temperatures up to 500°F.</p>
-          <ul>
-            <li>Created system schematics, a P&amp;ID, bill of materials, 3D layout, and operating procedure.</li>
-            <li>Designed remotely controlled pressurization and venting to reduce operator exposure to high-pressure hazards.</li>
-            <li>Evaluated component compatibility with MIL-PRF-83282 and Skydrol hydraulic fluids.</li>
-          </ul>
-          <div class="tag-list small"><span>P&amp;ID</span><span>Safety</span><span>System Design</span><span>CAD</span></div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-number">02</div>
-          <h3>Industrial Access Platform and Ladder</h3>
-          <p class="project-meta">REM Consultants | Mechanical Design</p>
-          <p>Designed a permanent galvanized-steel platform and ladder system to replace temporary scaffolding at an industrial flowmeter installation.</p>
-          <ul>
-            <li>Conducted site visits, collected measurements, and documented physical design constraints.</li>
-            <li>Created 3D models, an assembly, and detailed drawings using Siemens NX, SolidWorks, and AutoCAD.</li>
-            <li>Supported professional engineer review and client approval while improving long-term maintenance access.</li>
-          </ul>
-          <div class="tag-list small"><span>Siemens NX</span><span>Field Work</span><span>Drawings</span><span>DFM</span></div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-number">03</div>
-          <h3>Baja SAE Transmission Shaft</h3>
-          <p class="project-meta">Baja SAE | Machine Design &amp; FEA</p>
-          <p>Designed and analyzed a transmission shaft for infinite-life fatigue performance under vehicle loading.</p>
-          <ul>
-            <li>Performed loading, stress, fatigue, and factor-of-safety calculations.</li>
-            <li>Used CAD and finite element analysis to verify the design before manufacturing.</li>
-            <li>The completed shaft was installed on the team vehicle and used during the 2025 competition season.</li>
-          </ul>
-          <div class="tag-list small"><span>Fatigue</span><span>FEA</span><span>Machine Design</span><span>Manufacturing</span></div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-number">04</div>
-          <h3>Four-Bar Trash-Dumper Mechanism</h3>
-          <p class="project-meta">Machine Design | Team Project Lead</p>
-          <p>Led the development of a motor-driven four-bar crank-rocker mechanism designed to lift and dump a container within strict size, cost, and safety constraints.</p>
-          <ul>
-            <li>Performed force, geometry, motor torque, and factor-of-safety calculations.</li>
-            <li>Coordinated the schedule, compiled the final report, and supported fabrication.</li>
-            <li>Used machining equipment including a lathe and drill press to build the final prototype.</li>
-          </ul>
-          <div class="tag-list small"><span>Mechanisms</span><span>Leadership</span><span>Fabrication</span><span>FOS</span></div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-number">05</div>
-          <h3>Pressure Tracking and Hold Control System</h3>
-          <p class="project-meta">Honors Controls Project | MATLAB/Simulink</p>
-          <p>Modeled and evaluated a PID pressure-control strategy for the aerospace burst-test system.</p>
-          <ul>
-            <li>Created valve and pipe transfer-function models representing fast, medium, and slow dynamics.</li>
-            <li>Simulated nine combinations of pressure inputs and piping responses.</li>
-            <li>Evaluated ramp tracking, pressure hold, controller behavior, and response stability.</li>
-          </ul>
-          <div class="tag-list small"><span>Simulink</span><span>PID</span><span>Controls</span><span>Modeling</span></div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-number">06</div>
-          <h3>Turbojet Performance Analysis</h3>
-          <p class="project-meta">Honors Thermofluids Project | Python</p>
-          <p>Built a Python-based turbojet cycle solver to evaluate engine performance at sea-level conditions and multiple flight Mach numbers.</p>
-          <ul>
-            <li>Modeled diffuser, compressor, combustor, turbine, and nozzle performance using component efficiencies.</li>
-            <li>Calculated specific thrust and thrust-specific fuel consumption.</li>
-            <li>Compared engine behavior at Mach 0.85 and Mach 2.0.</li>
-          </ul>
-          <div class="tag-list small"><span>Python</span><span>Thermodynamics</span><span>Propulsion</span><span>Data Analysis</span></div>
-        </article>
+    <section id="resume" class="section">
+      <div class="container resume-card reveal">
+        <div>
+          <p class="eyebrow">Resume</p>
+          <h2>View my engineering experience in one place.</h2>
+          <p>My resume highlights field-to-design project experience, CAD and drafting skills, engineering analysis, project coordination, and selected aerospace and mechanical design work.</p>
+        </div>
+        <div class="resume-actions">
+          <a class="button primary" href="assets/Panashe_Chiduma_Resume.pdf" target="_blank" rel="noreferrer">Open Resume</a>
+          <a class="button secondary" href="assets/Panashe_Chiduma_Resume.pdf" download>Download PDF</a>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="experience">
-      <div class="section-heading">
-        <p class="eyebrow">Experience</p>
-        <h2>Professional Background</h2>
-        <p>
-          My background combines hands-on industrial design experience, technical teaching, engineering leadership, and a strong academic foundation. I have worked across the full design process—from gathering field data and defining constraints to producing CAD models, engineering drawings, calculations, and documentation for review.
-        </p>
-      </div>
-
-      <div class="timeline">
-        <article class="timeline-item">
-          <div class="timeline-header">
-            <div>
-              <h3>CAD Designer Intern</h3>
-              <p class="project-meta">REM Consultants | June 2025–Present</p>
-            </div>
-            <span class="experience-type">Engineering Experience</span>
-          </div>
-          <p>
-            Support industrial engineering and mechanical design projects using Siemens NX, SolidWorks, and AutoCAD. My work connects field conditions with practical, buildable designs that can be reviewed by professional engineers and clients.
-          </p>
-          <ul class="experience-list">
-            <li>Conduct field visits one to two times per week to inspect equipment, collect measurements, document site conditions, and identify physical design constraints.</li>
-            <li>Use 3D camera technology and field measurements to translate existing industrial layouts into accurate CAD models.</li>
-            <li>Develop 3D part models, assemblies, detailed drawings, and design revisions for engineering and client review.</li>
-            <li>Designed a permanent galvanized-steel access platform and ladder system for a recovery flowmeter installation, replacing temporary scaffolding with a safer long-term solution.</li>
-            <li>Coordinate feedback from engineers and clients, update design documentation, and help move projects from field assessment toward implementation.</li>
-          </ul>
-          <div class="tag-list small">
-            <span>Siemens NX</span><span>SolidWorks</span><span>AutoCAD</span><span>Field Surveys</span><span>3D Scanning</span><span>Engineering Drawings</span>
-          </div>
-        </article>
-
-        <article class="timeline-item">
-          <div class="timeline-header">
-            <div>
-              <h3>Undergraduate Learning Assistant</h3>
-              <p class="project-meta">Michigan State University | Fall 2025–Spring 2026</p>
-            </div>
-            <span class="experience-type">Technical Leadership</span>
-          </div>
-          <p>
-            Supported students in Electrical and Computer Engineering 345 through weekly help-room sessions, technical explanations, and guided problem solving. This role strengthened my ability to communicate complex concepts clearly and adapt my approach to different learning styles.
-          </p>
-          <ul class="experience-list">
-            <li>Assisted approximately 25–35 students each week for two academic semesters.</li>
-            <li>Explained technical concepts, worked through engineering problems, and helped students build confidence without simply giving answers.</li>
-            <li>Provided roughly 10 hours of academic support per week while maintaining professionalism, reliability, and patience.</li>
-            <li>Collaborated with course staff to reinforce consistent problem-solving methods and support student success.</li>
-            <li>Received positive feedback from students, including appreciation for clear explanations and dependable help.</li>
-          </ul>
-          <div class="tag-list small">
-            <span>Technical Communication</span><span>Mentoring</span><span>Problem Solving</span><span>Leadership</span><span>Collaboration</span>
-          </div>
-        </article>
-
-        <article class="timeline-item">
-          <div class="timeline-header">
-            <div>
-              <h3>Lead Staff Caregiver</h3>
-              <p class="project-meta">Open Arms Link AFC Home | January 2023–Present</p>
-            </div>
-            <span class="experience-type">Operations &amp; Leadership</span>
-          </div>
-          <p>
-            Provide daily leadership and direct support in a regulated residential-care environment. Although outside traditional engineering, this role has developed transferable strengths in safety, documentation, teamwork, accountability, and decision-making under pressure.
-          </p>
-          <ul class="experience-list">
-            <li>Coordinate daily routines, medication support, community activities, personal goals, and staff communication for multiple residents.</li>
-            <li>Prepare clear progress notes, incident reports, and staff meeting documentation while protecting confidentiality.</li>
-            <li>Respond calmly to behavioral, medical, and safety concerns and follow established procedures when escalation is required.</li>
-            <li>Train and guide staff on household procedures, emergency preparedness, resident support plans, and safe work practices.</li>
-            <li>Balance competing priorities while maintaining professionalism, empathy, organization, and attention to detail.</li>
-          </ul>
-          <div class="tag-list small">
-            <span>Safety</span><span>Documentation</span><span>Team Leadership</span><span>Risk Awareness</span><span>Communication</span>
-          </div>
-        </article>
-
-        <article class="timeline-item">
-          <div class="timeline-header">
-            <div>
-              <h3>B.S. Mechanical Engineering</h3>
-              <p class="project-meta">Michigan State University | Graduated May 2026</p>
-            </div>
-            <span class="experience-type">Education</span>
-          </div>
-          <p>
-            Completed a Bachelor of Science in Mechanical Engineering with an Aerospace Engineering concentration through Michigan State University's Honors College.
-          </p>
-          <ul class="experience-list">
-            <li>Graduated with a 3.7 GPA and earned Dean's List recognition each semester.</li>
-            <li>Completed advanced work in mechanical design, controls, thermofluids, propulsion, solid mechanics, manufacturing, and engineering analysis.</li>
-            <li>Led and contributed to team projects involving high-pressure test systems, mechanisms, rotating machinery, vehicle components, and control-system simulation.</li>
-            <li>Built experience with MATLAB, Simulink, Python, Abaqus, CAD software, engineering calculations, technical reports, and presentations.</li>
-            <li>Participated in Baja SAE, the National Society of Black Engineers, and Honors College project work.</li>
-          </ul>
-          <div class="tag-list small">
-            <span>Mechanical Engineering</span><span>Aerospace</span><span>Honors College</span><span>3.7 GPA</span><span>Dean's List</span>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="recommendations">
-      <div class="section-heading">
-        <p class="eyebrow">Professional References</p>
-        <h2>Recommendations</h2>
-        <p>Academic and professional recommendations reflecting my technical abilities, dependability, communication, leadership, and commitment to engineering.</p>
-      </div>
-
-      <div class="recommendation-grid">
-        <article class="recommendation-card">
-          <div class="recommendation-header">
-            <div class="initials">MM</div>
-            <div>
-              <h3>Matt Meier</h3>
-              <p>Undergraduate Learning Assistant Supervisor</p>
-              <p>Michigan State University</p>
-            </div>
-          </div>
-          <p><strong>Relationship:</strong> Supervised my work as an Undergraduate Learning Assistant for Electrical and Computer Engineering 345.</p>
-          <blockquote>Insert a short approved quotation from Matt's recommendation letter here.</blockquote>
-          <p>This recommendation may highlight my reliability, communication skills, patience, technical support, leadership, and ability to explain difficult concepts to students with different levels of experience.</p>
-          <div class="tag-list small"><span>Leadership</span><span>Communication</span><span>Teaching</span></div>
-          <a class="button primary full" href="assets/recommendations/matt-meier-recommendation.pdf" target="_blank" rel="noopener noreferrer">View Full Letter</a>
-        </article>
-
-        <article class="recommendation-card">
-          <div class="recommendation-header">
-            <div class="initials">PR</div>
-            <div>
-              <h3>Professor's Name</h3>
-              <p>Mechanical Engineering Faculty</p>
-              <p>Michigan State University</p>
-            </div>
-          </div>
-          <p><strong>Relationship:</strong> Taught me in ME 222 and ME 361 and guided my Honors College projects in both courses.</p>
-          <blockquote>Insert a short approved quotation from the professor's recommendation letter here.</blockquote>
-          <p>This recommendation may highlight my academic performance, engineering analysis, MATLAB work, independent learning, technical discipline, and attention to detail.</p>
-          <div class="tag-list small"><span>Analysis</span><span>MATLAB</span><span>Academic Excellence</span></div>
-          <a class="button primary full" href="assets/recommendations/professor-recommendation.pdf" target="_blank" rel="noopener noreferrer">View Full Letter</a>
-        </article>
-
-        <article class="recommendation-card">
-          <div class="recommendation-header">
-            <div class="initials">JN</div>
-            <div>
-              <h3>Joseph Nyandoro, P.E.</h3>
-              <p>President</p>
-              <p>REM Consultants</p>
-            </div>
-          </div>
-          <p><strong>Relationship:</strong> Worked with me at REM Consultants and evaluated the quality, accuracy, and professionalism of my project documentation and design-review work.</p>
-          <blockquote>“Panashe demonstrated strong intellectual curiosity and a willingness to challenge the status quo in ways that led to meaningful system improvements.”</blockquote>
-          <p>
-            Joseph's recommendation describes my ability to understand complex three-dimensional design models, produce detailed and thoughtful design reviews, communicate clearly, solve problems, meet demanding timelines, and perform effectively under pressure. He also highlights my consistent commitment to excellence and recommends me as a valuable addition to future engineering organizations.
-          </p>
-          <div class="tag-list small"><span>Design Review</span><span>Quality Assurance</span><span>Problem Solving</span><span>Professionalism</span></div>
-          <a class="button primary full" href="assets/recommendations/internship-supervisor-recommendation.pdf" target="_blank" rel="noopener noreferrer">View Full Letter</a>
-        </article>
-      </div>
-      <p class="privacy-note">Remove private phone numbers, addresses, handwritten signatures, and confidential information before publishing letters online.</p>
-    </section>
-
-    <section class="section contact-section" id="contact">
-      <div class="section-heading">
-        <p class="eyebrow">Contact</p>
-        <h2>Let's connect</h2>
-        <p>I am open to entry-level mechanical engineering opportunities in design, manufacturing, product development, test and validation, controls, quality, and aerospace systems.</p>
-      </div>
-      <div class="contact-links">
-        <a href="mailto:chidumapanashe817@gmail.com">chidumapanashe817@gmail.com</a>
-        <a href="tel:+15175992680">(517) 599-2680</a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <section id="contact" class="section contact">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something meaningful.</h2>
+          <p>I am open to entry-level mechanical engineering opportunities in design, manufacturing, testing, controls, quality, and aerospace systems.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:chidumapanashe817@gmail.com">chidumapanashe817@gmail.com</a>
+          <a href="tel:+15175992680">517-599-2680</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn Profile</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub Profile</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>© <span id="year"></span> Panashe Chiduma. Built with HTML, CSS, and JavaScript.</p>
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Panashe Chiduma. Built with HTML, CSS, and JavaScript.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
   </footer>
 
   <script src="script.js"></script>
