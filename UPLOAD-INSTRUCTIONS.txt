@@ -1,0 +1,18 @@
+UPLOAD THESE FILES AND FOLDERS TO THE ROOT OF YOUR GITHUB REPOSITORY:
+
+1. index.html
+2. style.css
+3. script.js
+4. assets folder
+
+ADD YOUR OWN FILES USING THESE EXACT NAMES:
+
+assets/images/panashe-headshot.jpg
+assets/Panashe-Chiduma-Resume.pdf
+assets/recommendations/matt-meier-recommendation.pdf
+assets/recommendations/professor-recommendation.pdf
+assets/recommendations/internship-supervisor-recommendation.pdf
+
+Before publishing recommendation letters, remove private phone numbers, home addresses, handwritten signatures, and confidential information.
+
+You should also edit the LinkedIn link near the bottom of index.html and replace https://www.linkedin.com/ with your profile link.
